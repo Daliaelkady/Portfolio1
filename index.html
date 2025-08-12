@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Dalia Elkady Portfolio</title>
+</head>
+<body>
+  <header data-aos="fade-down" data-aos-delay="200">
+    <div class="container">
+      <div class="content">
+        <div class="logo">
+          <a href="">DALIA.</a>
+        </div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#project">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="extra-nav">
+          <a href="#"><span>AVAILABLE FOR WORK</span></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="content">
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <div class="line"></div>
+
+        <div class="text">
+          <h1 class="row-1" data-aos="fade-right" data-aos-duration="2000">FRONT-END</h1>
+          <h1 class="row-2" data-aos="flip-down" data-aos-duration="2000">DEVELOPER</h1>
+          <h1 class="row-3" data-aos="fade-left" data-aos-duration="2000">
+            & CREATIVE DESIGNER
+          </h1>
+        </div>
+
+        <box-icon name="chevron-down" class="arrow"></box-icon>
+
+        <div class="short-info">
+          <div class="left-side" data-aos="fade-up-right" data-aos-delay="300">
+            <h1>Based in Cairo, Egypt</h1>
+            <p class="time"></p>
+          </div>
+
+          <div class="right-side" data-aos="fade-up-left" data-aos-delay="300">
+            <p>Freelance Availability</p>
+            <h1>
+              <div class="pulse"></div>
+              LIMITED HOURS
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="content">
+        <div class="title">
+          <h2 data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">
+            About <hr />
+          </h2>
+          <h1 data-aos="fade-right" data-aos-duration="500" data-aos-delay="500">DALIA ELKADY</h1>
+        </div>
+
+        <div
+          class="profile-container"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <div class="profile">
+            <img src="./images/Dalia.jpg" alt="profile" />
+          </div>
+        </div>
+
+        <div class="about-me" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+          <p>
+            I am a passionate Front-End Developer and Creative Designer who
+            loves crafting beautiful, user-friendly websites. With a strong eye
+            for detail and a love for clean code, I bring ideas to life with
+            creativity and precision.
+          </p>
+          <button onclick="window.open('assets/Dalia_Elkady_CV.pdf', '_blank')">
+            Download CV <box-icon class="arrow" name="arrow-back"></box-icon>
+          </button>
+        </div>
+
+        <div class="text-wrapper" data-aos="flip-up">
+          <div class="text">
+            <h1>DALIA <span>PORTFOLIO</span></h1>
+            <h1>DALIA <span>PORTFOLIO</span></h1>
+          </div>
+          <div class="text">
+            <h1>DALIA <span>PORTFOLIO</span></h1>
+            <h1>DALIA <span>PORTFOLIO</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="project" id="project">
+    <div class="container">
+      <div class="content">
+        <div class="header">
+          <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+            See All Projects <box-icon class="arrow" name="arrow-back"></box-icon>
+          </button>
+  
+          <div class="title">
+            <h1 class="row-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+              <hr /> Recent
+            </h1>
+            <h1 class="row-2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
+              PROJECTS
+            </h1>
+          </div>
+        </div>
+  
+        <div
+          class="project-area"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <div class="projects" data-aos="fade-up" data-aos-delay="350">
+            <img src="./images/weather app.png" alt="Weather App" />
+            <div class="desc">
+              <h1>Weather App</h1>
+              <p>A clean and simple tool to get accurate weather forecasts anytime.</p>
+              <a href="https://daliaelkady.github.io/Weather-app/" target="_blank" class="live-demo">Live Demo</a>
+            </div>
+          </div>
+  
+          <div class="projects" data-aos="fade-up" data-aos-delay="450">
+            <img src="./images/cal.png" alt="Simple Calculator" />
+            <div class="desc">
+              <h1>Simple Calculator</h1>
+              <p>An easy-to-use calculator for quick and precise calculations.</p>
+              <a href="https://daliaelkady.github.io/Elegant-calculator-/" target="_blank" class="live-demo">Live Demo</a>
+            </div>
+          </div>
+  
+          <div class="projects" data-aos="fade-up" data-aos-delay="550">
+            <img src="./images/sweet deligjts.png" alt="Sweet Delights" />
+            <div class="desc">
+              <h1>Sweet Delights</h1>
+              <p>A colorful and inviting bakery website design full of charm.</p>
+              <a href="https://daliaelkady.github.io/Sweet-Delights-website/" target="_blank" class="live-demo">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="content">
+        <div class="header">
+          <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+            See All Skills <box-icon class="arrow" name="arrow-back"></box-icon>
+          </button>
+  
+          <div class="title">
+            <h1 class="row-1" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300">
+              <hr /> Recent
+            </h1>
+            <h1 class="row-2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="500">
+              SKILLS
+            </h1>
+          </div>
+        </div>
+  
+        <div class="skills-icons" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <div class="skill" title="HTML5">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+            <p>HTML5</p>
+          </div>
+          <div class="skill" title="CSS3">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+            <p>CSS3 & Tailwind</p>
+          </div>
+          <div class="skill" title="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            <p>JavaScript (ES6+)</p>
+          </div>
+          <div class="skill" title="React">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+            <p>React.js</p>
+          </div>
+          <div class="skill" title="Git">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+            <p>Git & GitHub</p>
+          </div>
+          <div class="skill" title="Responsive Design">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Responsive Design" />
+            <p>Responsive Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="content">
+        <div class="title" data-aos="fade-down" data-aos-delay="300">
+          <h2>LET'S</h2>
+          <h1>CONNECT</h1>
+        </div>
+  
+        <div class="contact-area">
+          <div data-aos="fade-right" data-aos-delay="300" class="left-side">
+            <h1>LET'S BEGIN</h1>
+            <h1>OUR JOURNEY</h1>
+          </div>
+  
+          <div class="right-side">
+            <form
+              action="https://formspree.io/f/xdkdband"
+              method="POST"
+              data-aos="fade-left"
+              data-aos-delay="500"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="YOUR NAME"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="YOUR EMAIL ADDRESS"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="WHAT CAN I HELP FOR YOU?"
+                required
+              ></textarea>
+              <button type="submit">SEND</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+  
+      if (response.ok) {
+        alert('Thank you! Your message was sent.');
+        form.reset();
+      } else {
+        alert('Oops! There was a problem submitting your form.');
+      }
+    });
+  </script>
+
+  <footer>
+    <div class="container">
+      <div class="content">
+        <h1>DALIA PORTFOLIO</h1>
+        <div class="social">
+          <div class="logo" title="LinkedIn">
+            <box-icon name="linkedin-square" type="logo"></box-icon>
+          </div>
+          <div class="logo" title="Github">
+            <box-icon name="github" type="logo"></box-icon>
+          </div>
+        </div>
+        <p>&copy; Dalia <span id="year"></span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- Box Icon -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
